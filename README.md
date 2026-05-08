@@ -20,23 +20,23 @@ Last updated: May 8, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
-| Claude 1 | March 14, 2023 | First public Claude assistant from Anthropic. |
-| Claude 2 | July 11, 2023 | Improved performance, longer responses, API access, and a public beta web experience. |
-| Claude 2.1 | November 21, 2023 | 200K context window, lower hallucination rates, system prompts, and early tool use. |
-| Claude 3 | March 4, 2024 | Model family with Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus. |
-| Claude 3.5 Sonnet | June 21, 2024 | Stronger reasoning, coding, and visual performance. |
-| Upgraded Claude 3.5 Sonnet | October 22, 2024 | Improved coding performance and public beta computer use. |
-| Claude 3.5 Haiku | October 22, 2024 | Faster, lower-cost model in the Claude 3.5 family. |
-| Claude 3.7 Sonnet | February 24, 2025 | Hybrid reasoning model with developer controls for reasoning behavior. |
-| Claude Code | February 24, 2025 | Agentic coding tool released as a research preview. |
-| Claude Opus 4 and Claude Sonnet 4 | May 22, 2025 | Claude 4 generation for coding, reasoning, and agent workflows. |
-| Claude Opus 4.1 | August 5, 2025 | Opus 4 upgrade for coding precision and agentic tasks. |
-| Claude Sonnet 4.5 | September 29, 2025 | Strong Sonnet model for agents, coding, and computer use. |
-| Claude Haiku 4.5 | October 16, 2025 | Lightweight Claude 4.5 model focused on speed and cost efficiency. |
-| Claude Opus 4.5 | November 24, 2025 | High-intelligence model for coding, agents, computer use, and enterprise work. |
-| Claude Opus 4.6 | February 5, 2026 | Opus upgrade with better planning, long-running agent reliability, and 1M context in beta. |
-| Claude Sonnet 4.6 | February 17, 2026 | Sonnet upgrade for coding, computer use, long-context reasoning, agent planning, knowledge work, and design. |
 | Claude Opus 4.7 | April 16, 2026 | Opus upgrade for advanced software engineering, complex multi-step tasks, vision, and professional work. |
+| Claude Sonnet 4.6 | February 17, 2026 | Sonnet upgrade for coding, computer use, long-context reasoning, agent planning, knowledge work, and design. |
+| Claude Opus 4.6 | February 5, 2026 | Opus upgrade with better planning, long-running agent reliability, and 1M context in beta. |
+| Claude Opus 4.5 | November 24, 2025 | High-intelligence model for coding, agents, computer use, and enterprise work. |
+| Claude Haiku 4.5 | October 16, 2025 | Lightweight Claude 4.5 model focused on speed and cost efficiency. |
+| Claude Sonnet 4.5 | September 29, 2025 | Strong Sonnet model for agents, coding, and computer use. |
+| Claude Opus 4.1 | August 5, 2025 | Opus 4 upgrade for coding precision and agentic tasks. |
+| Claude Opus 4 and Claude Sonnet 4 | May 22, 2025 | Claude 4 generation for coding, reasoning, and agent workflows. |
+| Claude Code | February 24, 2025 | Agentic coding tool released as a research preview. |
+| Claude 3.7 Sonnet | February 24, 2025 | Hybrid reasoning model with developer controls for reasoning behavior. |
+| Claude 3.5 Haiku | October 22, 2024 | Faster, lower-cost model in the Claude 3.5 family. |
+| Upgraded Claude 3.5 Sonnet | October 22, 2024 | Improved coding performance and public beta computer use. |
+| Claude 3.5 Sonnet | June 21, 2024 | Stronger reasoning, coding, and visual performance. |
+| Claude 3 | March 4, 2024 | Model family with Claude 3 Haiku, Claude 3 Sonnet, and Claude 3 Opus. |
+| Claude 2.1 | November 21, 2023 | 200K context window, lower hallucination rates, system prompts, and early tool use. |
+| Claude 2 | July 11, 2023 | Improved performance, longer responses, API access, and a public beta web experience. |
+| Claude 1 | March 14, 2023 | First public Claude assistant from Anthropic. |
 
 ## Full Timeline
 

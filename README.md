@@ -4,6 +4,8 @@ A public timeline of major Anthropic Claude model releases, product updates, and
 
 This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 4.7, plus related releases such as Claude Code, Model Context Protocol, Claude Desktop, web search, connectors, and agent features.
 
+> [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
+
 Last updated: May 8, 2026
 
 ## What This Timeline Covers

@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 4.7, plus related releases such as Claude Code, Model Context Protocol, Claude Desktop, web search, connectors, and agent features.
+This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 4.8, plus related releases such as Claude Code, Model Context Protocol, Claude Desktop, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: May 8, 2026
+Last updated: May 29, 2026
 
 ## What This Timeline Covers
 
@@ -22,6 +22,7 @@ Last updated: May 8, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
+| Claude Opus 4.8 | May 28, 2026 | Opus upgrade for coding, agentic tasks, professional work, and more reliable long-running collaboration. |
 | Claude Opus 4.7 | April 16, 2026 | Opus upgrade for advanced software engineering, complex multi-step tasks, vision, and professional work. |
 | Claude Sonnet 4.6 | February 17, 2026 | Sonnet upgrade for coding, computer use, long-context reasoning, agent planning, knowledge work, and design. |
 | Claude Opus 4.6 | February 5, 2026 | Opus upgrade with better planning, long-running agent reliability, and 1M context in beta. |
@@ -95,18 +96,22 @@ Last updated: May 8, 2026
 | April 2026 | Anthropic introduced Managed Agents for building and deploying cloud-hosted agents. |
 | April 2026 | Anthropic introduced Routines in Claude Code for scheduled or event-based coding automation. |
 | May 2026 | Claude Security launched to scan codebases, validate findings, and suggest patches for review. |
+| May 2026 | Claude Opus 4.8 launched with stronger coding, agentic task handling, professional work performance, and more reliable long-running collaboration. |
+| May 2026 | Claude Code introduced dynamic workflows in research preview, allowing Claude to plan large tasks, run many parallel subagents, and verify results before reporting back. |
+| May 2026 | Claude added effort control in claude.ai and Cowork, giving users a way to choose how much effort Claude puts into a response. |
+| May 2026 | The Messages API added support for system entries inside the messages array, allowing developers to update instructions mid-task. |
 
 ## Latest Claude Model
 
-The latest major Claude model in this timeline is Claude Opus 4.7, released on April 16, 2026.
+The latest major Claude model in this timeline is Claude Opus 4.8, released on May 28, 2026.
 
-Claude Opus 4.7 is positioned for advanced software engineering, complex workflows, high-resolution vision, and professional work. Claude Sonnet 4.6 remains a strong option for coding, agents, knowledge work, and design tasks. Claude Haiku 4.5 remains the lightweight model in the current Claude 4.5 generation.
+Claude Opus 4.8 is positioned for coding, agentic workflows, professional work, and long-running collaboration. Claude Sonnet 4.6 remains a strong option for coding, agents, knowledge work, and design tasks. Claude Haiku 4.5 remains the lightweight model in the current Claude 4.5 generation.
 
 ## Source Article
 
 This repository is maintained as a companion resource for the full article:
 
-[Anthropic Claude Timeline: From Claude 1 to Claude Opus 4.7](https://www.scriptbyai.com/anthropic-claude-timeline/)
+[Anthropic Claude Timeline: From Claude 1 to Claude Opus 4.8](https://www.scriptbyai.com/anthropic-claude-timeline/)
 
 The article includes a more readable web version of the timeline, plus context on Claude model generations and related Claude resources.
 

@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Sonnet 5, Claude Fable 5, and Claude Mythos 5, plus related releases such as Claude Code, Model Context Protocol, Claude Desktop, Claude Science, web search, connectors, and agent features.
+This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 5, Claude Sonnet 5, Claude Fable 5, and Claude Mythos 5, plus related releases such as Claude Code, Model Context Protocol, Claude Desktop, Claude Science, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: July 1, 2026
+Last updated: July 25, 2026
 
 ## What This Timeline Covers
 
@@ -22,6 +22,7 @@ Last updated: July 1, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
+| Claude Opus 5 | July 24, 2026 | Opus model for complex agentic coding and enterprise work, with a 1M-token context window, 128K maximum output, and adaptive thinking enabled by default. |
 | Claude Sonnet 5 | June 30, 2026 | Sonnet model for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows. |
 | Claude Fable 5 | June 9, 2026 | Mythos-class Claude model for general use, with safeguards that route some sensitive requests to Claude Opus 4.8. |
 | Claude Mythos 5 | June 9, 2026 | Same underlying model as Fable 5, with some safeguards lifted for restricted Project Glasswing and trusted-access use. |
@@ -132,18 +133,19 @@ Last updated: July 1, 2026
 | June 2026 | Anthropic introduced Claude Fable 5 and Claude Mythos 5. Fable 5 became the newest generally available Claude model, while Mythos 5 launched for restricted trusted-access use. |
 | June 2026 | Anthropic introduced Claude Science, a beta AI workbench for scientific research on macOS, Linux, remote machines, and HPC environments. |
 | June 2026 | Anthropic introduced Claude Sonnet 5 for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows. |
+| July 2026 | Anthropic released Claude Opus 5 for complex agentic coding and enterprise work. It provides a 1M-token context window, up to 128K output tokens, adaptive thinking by default, and a five-level effort setting. |
 
 ## Latest Claude Model
 
-The latest generally available Claude model in this timeline is Claude Sonnet 5, released on June 30, 2026.
+The latest generally available Claude model in this timeline is Claude Opus 5, released on July 24, 2026.
 
-Claude Sonnet 5 is built for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows. Claude Fable 5 is a Mythos-class model for difficult coding, long-horizon agent work, knowledge work, vision tasks, and complex research-style workflows. Claude Opus 4.8 remains an Opus-class model for coding, agent workflows, professional work, and long-running collaboration. Claude Haiku 4.5 remains the lightweight option in the Claude 4.5 generation.
+Claude Opus 5 is designed for complex agentic coding and enterprise work. It provides a 1M-token context window, up to 128K output tokens, and adaptive thinking by default. Claude Sonnet 5 remains a lower-cost option for agentic coding, tool use, reasoning, and knowledge work. Claude Fable 5 is a Mythos-class model for difficult coding, long-horizon agent work, knowledge work, vision tasks, and complex research-style workflows. Claude Haiku 4.5 remains the lightweight option in the Claude 4.5 generation.
 
 ## Source Article
 
 This repository is maintained as a companion resource for the full article:
 
-[Anthropic Claude Timeline: From Claude 1 to Claude Sonnet 5](https://www.scriptbyai.com/anthropic-claude-timeline/)
+[Anthropic Claude Timeline: From Claude 1 to Claude Opus 5](https://www.scriptbyai.com/anthropic-claude-timeline/)
 
 The article includes a more readable web version of the timeline, plus context on Claude model generations and related Claude resources.
 

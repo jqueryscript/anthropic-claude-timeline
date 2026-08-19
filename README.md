@@ -6,7 +6,7 @@ This repository is built to make Claude release history easier to reference, cit
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: July 25, 2026
+Last updated: August 19, 2026
 
 ## What This Timeline Covers
 
@@ -23,8 +23,8 @@ Last updated: July 25, 2026
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
 | Claude Opus 5 | July 24, 2026 | Opus model for complex agentic coding and enterprise work, with a 1M-token context window, 128K maximum output, and adaptive thinking enabled by default. |
-| Claude Sonnet 5 | June 30, 2026 | Sonnet model for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows. |
-| Claude Fable 5 | June 9, 2026 | Mythos-class Claude model for general use, with safeguards that route some sensitive requests to Claude Opus 4.8. |
+| Claude Sonnet 5 | June 30, 2026 | Sonnet model for agentic coding, tool use, reasoning, and knowledge work; its API pricing of $2 per million input tokens and $10 per million output tokens is now permanent. |
+| Claude Fable 5 | June 9, 2026 | Mythos-class Claude model for general use; biology safeguards now reduce false positives, while dual-use biology requests fall back to Claude Opus 5. |
 | Claude Mythos 5 | June 9, 2026 | Same underlying model as Fable 5, with some safeguards lifted for restricted Project Glasswing and trusted-access use. |
 | Claude Opus 4.8 | May 28, 2026 | Opus upgrade for coding, agentic tasks, professional work, and more reliable long-running collaboration. |
 | Claude Opus 4.7 | April 16, 2026 | Opus upgrade for advanced software engineering, complex multi-step tasks, high-resolution vision, and professional work. |
@@ -134,6 +134,11 @@ Last updated: July 25, 2026
 | June 2026 | Anthropic introduced Claude Science, a beta AI workbench for scientific research on macOS, Linux, remote machines, and HPC environments. |
 | June 2026 | Anthropic introduced Claude Sonnet 5 for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows. |
 | July 2026 | Anthropic released Claude Opus 5 for complex agentic coding and enterprise work. It provides a 1M-token context window, up to 128K output tokens, adaptive thinking by default, and a five-level effort setting. |
+| August 2026 | Claude's Gmail and Google Drive connectors gained write actions. Claude can send approved Gmail replies and organize, move, share, or trash Drive files. [Gmail](https://claude.com/connectors/gmail) · [Google Drive](https://claude.com/connectors/google-drive) |
+| August 2026 | Claude Cowork became available on the web and mobile apps for all paid plans, with remote sessions and files available across devices. [Cowork announcement](https://claude.com/blog/cowork-web-mobile) |
+| August 2026 | Claude in Chrome began sharing saved Cowork sessions, skills, and connectors with Claude on desktop, web, and mobile. [Claude in Chrome update](https://claude.com/blog/cowork-chrome-side-panel) |
+| August 2026 | Anthropic made Claude Sonnet 5's introductory API pricing permanent at $2 per million input tokens and $10 per million output tokens. [Sonnet 5 announcement](https://www.anthropic.com/news/claude-sonnet-5) |
+| August 2026 | Anthropic updated Claude Fable 5's biology safeguards, reducing biology-related fallbacks by about 85% in testing. Dual-use biology requests still fall back to Opus 5. [Safeguards update](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) |
 
 ## Latest Claude Model
 

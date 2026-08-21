@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 5, Claude Sonnet 5, Claude Fable 5, and Claude Mythos 5, plus related releases such as Claude Code, Model Context Protocol, Claude Desktop, Claude Science, web search, connectors, and agent features.
+This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 5, Claude Sonnet 5, Claude Fable 5, and Claude Mythos 5, plus related releases such as Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: August 19, 2026
+Last updated: August 21, 2026
 
 ## What This Timeline Covers
 
@@ -130,15 +130,29 @@ Last updated: August 19, 2026
 | May 2026 | Claude added effort control in claude.ai and Cowork, giving users a way to choose how much effort Claude puts into a response. |
 | May 2026 | Claude Code introduced dynamic workflows in research preview, allowing Claude to plan large tasks, run many parallel subagents, and verify results before reporting back. |
 | May 2026 | Claude Opus 4.8 launched with stronger coding, agentic task handling, professional work performance, and more reliable long-running collaboration. |
+| June 23, 2026 | Claude Tag extended Claude into persistent, team-based Slack collaboration. |
 | June 2026 | Anthropic introduced Claude Fable 5 and Claude Mythos 5. Fable 5 became the newest generally available Claude model, while Mythos 5 launched for restricted trusted-access use. |
 | June 2026 | Anthropic introduced Claude Science, a beta AI workbench for scientific research on macOS, Linux, remote machines, and HPC environments. |
 | June 2026 | Anthropic introduced Claude Sonnet 5 for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows. |
 | July 2026 | Anthropic released Claude Opus 5 for complex agentic coding and enterprise work. It provides a 1M-token context window, up to 128K output tokens, adaptive thinking by default, and a five-level effort setting. |
-| August 2026 | Claude's Gmail and Google Drive connectors gained write actions. Claude can send approved Gmail replies and organize, move, share, or trash Drive files. [Gmail](https://claude.com/connectors/gmail) · [Google Drive](https://claude.com/connectors/google-drive) |
-| August 2026 | Claude Cowork became available on the web and mobile apps for all paid plans, with remote sessions and files available across devices. [Cowork announcement](https://claude.com/blog/cowork-web-mobile) |
-| August 2026 | Claude in Chrome began sharing saved Cowork sessions, skills, and connectors with Claude on desktop, web, and mobile. [Claude in Chrome update](https://claude.com/blog/cowork-chrome-side-panel) |
-| August 2026 | Anthropic made Claude Sonnet 5's introductory API pricing permanent at $2 per million input tokens and $10 per million output tokens. [Sonnet 5 announcement](https://www.anthropic.com/news/claude-sonnet-5) |
-| August 2026 | Anthropic updated Claude Fable 5's biology safeguards, reducing biology-related fallbacks by about 85% in testing. Dual-use biology requests still fall back to Opus 5. [Safeguards update](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards) |
+| July 28, 2026 | The [MCP 2026-07-28 specification](https://claude.com/blog/bringing-mcp-2026-07-28-to-claude) introduced a stateless core, standardized extensions for MCP Apps and Tasks, and stronger OAuth 2.0 and OIDC authorization. |
+| August 5, 2026 | [Inference hooks](https://claude.com/blog/claude-enterprise-inference-hooks) entered beta for Claude Enterprise, allowing a security server to inspect and allow or block prompts and tool responses across Claude, Claude Code, Cowork, MCP connectors, Skills, and plugins. |
+| August 6, 2026 | [Self-hosted Claude Code environments](https://claude.com/blog/run-claude-code-sessions-on-your-own-compute) entered public beta for Team and Enterprise organizations. Sessions can run on infrastructure controlled by the organization. |
+| August 7, 2026 | [Auto mode](https://claude.com/blog/auto-mode-default-in-claude-code) became the planned default for new Claude Code sessions on Pro, Max, and Team plans starting August 14. |
+| August 7, 2026 | Anthropic updated [Claude Fable 5's biology safeguards](https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards), reducing biology-related fallbacks by about 85% in testing. |
+| August 10, 2026 | Anthropic made Claude Sonnet 5's introductory API pricing permanent at $2 per million input tokens and $10 per million output tokens. [Sonnet 5 announcement](https://www.anthropic.com/news/claude-sonnet-5) |
+| August 11, 2026 | The [Compliance API](https://claude.com/blog/compliance-api-cowork-and-claude-code) beta expanded to Claude Cowork and Claude Code sessions. |
+| August 12, 2026 | [Claude in Chrome](https://claude.com/blog/cowork-chrome-side-panel) began sharing Cowork sessions, saved conversations, skills, and connectors with Claude on desktop, web, and mobile. |
+| August 13, 2026 | [Claude Tag](https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room) began using wider channel context, memory, and standing instructions when deciding whether to respond proactively. Anthropic reported about a 30% improvement in that decision. |
+| August 17, 2026 | [ABC Legal](https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents) reported more than 50 Claude Managed Agents in production, about 310 employees using Claude daily, and up to a 50% reduction in the cost of some human tasks. |
+| August 18, 2026 | [Claude Tag](https://claude.com/blog/ai-ci-cd-on-call) became Anthropic's first responder for CI/CD incidents, producing its first evidence-grounded analysis after a median of 14 minutes. |
+| August 18, 2026 | Claude's [Gmail](https://claude.com/connectors/gmail) and [Google Drive](https://claude.com/connectors/google-drive) connectors gained write actions, with approval required before changes by default. |
+| August 18, 2026 | [Claude Cowork](https://claude.com/blog/cowork-web-mobile) became available on the web and mobile apps for all paid plans, with remote sessions and files available across devices. |
+| August 19, 2026 | [Slack](https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams) shared practices for human-agent teams using Claude Tag, including shared-channel context, agent-built briefings, clear handoffs, and human review. |
+| August 20, 2026 | [Claude Academy](https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai) became available with courses, tutorials, learning paths, completion tracking, badges, and a Claude Academy Skill. |
+| August 20, 2026 | [Computer use, the browser use tool, the Skills API, and the Files API](https://claude.com/blog/computer-use-skills-api-files-api) became generally available on the Claude Platform. |
+| August 20, 2026 | Anthropic published the [Claude Code Guide for Startups](https://claude.com/blog/claude-code-guide-for-startups), which distills five operating rules from more than a dozen Claude Code deployments. |
+| August 20, 2026 | [monday.com](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate) described rebuilding its platform around human-agent collaboration with Claude and reported more than 5 million agent interactions since its May launch. |
 
 ## Latest Claude Model
 

@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Opus 5, Claude Sonnet 5, Claude Fable 5, and Claude Mythos 5, plus related releases such as Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
+This repository is built to make Claude release history easier to reference, cite, and update. It covers the main Claude model generations from Claude 1 through Claude Fable 5.1, Claude Mythos 5.1, Claude Opus 5, and Claude Sonnet 5, plus related releases such as Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: August 21, 2026
+Last updated: September 2, 2026
 
 ## What This Timeline Covers
 
@@ -22,6 +22,8 @@ Last updated: August 21, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
+| Claude Fable 5.1 | September 1, 2026 | Anthropic's most capable generally available model for demanding reasoning, long-running agents, coding, research, and document work, with a 1M-token context window and 128K maximum output. |
+| Claude Mythos 5.1 | September 1, 2026 | Restricted-access version of the same underlying model as Fable 5.1, available by invitation through Project Glasswing. |
 | Claude Opus 5 | July 24, 2026 | Opus model for complex agentic coding and enterprise work, with a 1M-token context window, 128K maximum output, and adaptive thinking enabled by default. |
 | Claude Sonnet 5 | June 30, 2026 | Sonnet model for agentic coding, tool use, reasoning, and knowledge work; its API pricing of $2 per million input tokens and $10 per million output tokens is now permanent. |
 | Claude Fable 5 | June 9, 2026 | Mythos-class Claude model for general use; biology safeguards now reduce false positives, while dual-use biology requests fall back to Claude Opus 5. |
@@ -31,7 +33,7 @@ Last updated: August 21, 2026
 | Claude Sonnet 4.6 | February 17, 2026 | Sonnet upgrade for coding, computer use, long-context reasoning, agent planning, knowledge work, and design. |
 | Claude Opus 4.6 | February 5, 2026 | Opus upgrade with stronger planning, code review, debugging, long-running agent reliability, and 1M context in beta. |
 | Claude Opus 4.5 | November 24, 2025 | High-intelligence Opus model for coding, agents, computer use, spreadsheets, and long-running chats. |
-| Claude Haiku 4.5 | October 16, 2025 | Lightweight Claude 4.5 model for faster and lower-cost responses. |
+| Claude Haiku 4.5 | October 15, 2025 | Lightweight Claude 4.5 model for faster and lower-cost responses. |
 | Claude Sonnet 4.5 | September 29, 2025 | Sonnet model for agents, coding, and computer use. |
 | Claude Opus 4.1 | August 5, 2025 | Opus 4 upgrade for coding precision and agentic tasks. |
 | Claude Opus 4 and Claude Sonnet 4 | May 22, 2025 | Claude 4 generation for coding, advanced reasoning, and AI agent workflows. |
@@ -153,18 +155,25 @@ Last updated: August 21, 2026
 | August 20, 2026 | [Computer use, the browser use tool, the Skills API, and the Files API](https://claude.com/blog/computer-use-skills-api-files-api) became generally available on the Claude Platform. |
 | August 20, 2026 | Anthropic published the [Claude Code Guide for Startups](https://claude.com/blog/claude-code-guide-for-startups), which distills five operating rules from more than a dozen Claude Code deployments. |
 | August 20, 2026 | [monday.com](https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate) described rebuilding its platform around human-agent collaboration with Claude and reported more than 5 million agent interactions since its May launch. |
+| August 25, 2026 | Claude's [memory became consistent across chat and Cowork](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it), with controls to review, edit, and delete saved information. |
+| August 26, 2026 | Claude added a built-in browser in Cowork. |
+| August 27, 2026 | Anthropic opened a research preview of the [Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview), a model-agnostic specification for AI agents to operate programmable lab and manufacturing equipment. |
+| August 27, 2026 | Anthropic expanded its support for scientists with 10,000 free or discounted Claude Team seats for one year and up to $50,000 in Claude credits per eligible AI for Science project. |
+| September 1, 2026 | Anthropic released [Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1). Fable 5.1 became its most capable generally available model, while Mythos 5.1 remained invitation-only. |
+| September 1, 2026 | The Messages API introduced [preserved thinking controls](https://support.claude.com/en/articles/16761192-preserved-thinking-changing-how-the-messages-api-handles-thinking-blocks-to-protect-against-distillation) for Fable 5.1. For new API accounts, thinking blocks are bound to the model and conversation prefix. |
+| September 1, 2026 | Anthropic announced [Enterprise Frontier Safeguards](https://www.anthropic.com/news/enterprise-frontier-safeguards), a phased enterprise system for customer-controlled activity storage and automated misuse monitoring. |
 
 ## Latest Claude Model
 
-The latest generally available Claude model in this timeline is Claude Opus 5, released on July 24, 2026.
+The latest generally available Claude model in this timeline is Claude Fable 5.1, released on September 1, 2026.
 
-Claude Opus 5 is designed for complex agentic coding and enterprise work. It provides a 1M-token context window, up to 128K output tokens, and adaptive thinking by default. Claude Sonnet 5 remains a lower-cost option for agentic coding, tool use, reasoning, and knowledge work. Claude Fable 5 is a Mythos-class model for difficult coding, long-horizon agent work, knowledge work, vision tasks, and complex research-style workflows. Claude Haiku 4.5 remains the lightweight option in the Claude 4.5 generation.
+Claude Fable 5.1 is designed for demanding reasoning, long-running agents, coding, multistep research, and document-heavy professional work. It provides a 1M-token context window, up to 128K output tokens, and adaptive thinking that stays on. Claude Opus 5 remains Anthropic's recommended starting point for most complex workloads, Claude Sonnet 5 serves lower-cost agent workflows, and Claude Haiku 4.5 remains the lightweight option.
 
 ## Source Article
 
 This repository is maintained as a companion resource for the full article:
 
-[Anthropic Claude Timeline: From Claude 1 to Claude Opus 5](https://www.scriptbyai.com/anthropic-claude-timeline/)
+[Anthropic Claude Timeline: From Claude 1 to Claude Fable 5.1](https://www.scriptbyai.com/anthropic-claude-timeline/)
 
 The article includes a more readable web version of the timeline, plus context on Claude model generations and related Claude resources.
 

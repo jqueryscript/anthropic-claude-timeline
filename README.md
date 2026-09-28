@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the major Claude models through the September 2026 launch of Claude Opus 5.5, plus releases such as Claude Fable 5.1, Claude Mythos 5.1, Claude Opus 5, and Claude Sonnet 5. It also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
+This repository is built to make Claude release history easier to reference, cite, and update. It covers the major Claude models through the September 2026 launch of Claude Sonnet 5.5, plus releases such as Claude Opus 5.5, Claude Fable 5.1, Claude Mythos 5.1, and Claude Sonnet 5. It also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: September 23, 2026
+Last updated: September 29, 2026
 
 ## What This Timeline Covers
 
@@ -22,6 +22,7 @@ Last updated: September 23, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
+| Claude Sonnet 5.5 | September 28, 2026 | Faster Sonnet model for everyday tasks, coding, and document work. It generates output more than 30% faster than Sonnet 5 and has the same API prices: $2 per million input tokens, $10 per million output tokens, and $0.20 per million cache reads. |
 | Claude Opus 5.5 | September 22, 2026 | Anthropic's most capable Opus model; matches Fable 5.1 on most work, has a 1M-token context window, and costs 40% less to run than Opus 5 on typical workloads. API prices are $4 per million input tokens, $20 per million output tokens, and $0.20 per million cache reads. |
 | Claude Fable 5.1 | September 1, 2026 | Anthropic's most capable generally available model for demanding reasoning, long-running agents, coding, research, and document work, with a 1M-token context window and 128K maximum output. |
 | Claude Mythos 5.1 | September 1, 2026 | Restricted-access version of the same underlying model as Fable 5.1, available by invitation through Project Glasswing. |
@@ -172,18 +173,22 @@ Last updated: September 23, 2026
 | September 17, 2026 | Working in Claude Science, Claude optimized more than 30 open-source biomolecular models in under four weeks, with roughly 4x average speed-ups; Anthropic [released the optimized code](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling). |
 | September 18, 2026 | Anthropic partnered with [Accenture](https://www.anthropic.com/news/accenture-embedded-evaluation) on independent frontier-model evaluation, red-teaming, and safeguard testing. |
 | September 22, 2026 | Anthropic released [Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5), the first Claude 5.5 model. It matches Fable 5.1 on most work and costs 40% less to run than Opus 5 on typical workloads; its API prices are 20% lower for input and output tokens and 60% lower for cache reads. See Anthropic's [Opus 5.5 pricing breakdown](https://claude.com/blog/what-a-task-costs-on-opus-5-5). |
+| September 23, 2026 | Anthropic introduced [Claude Marketplace](https://claude.com/blog/claude-marketplace) to help teams discover plugins, connectors, agents, products, and service partners. |
+| September 24, 2026 | [Claude Tag added personal connectors](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels) for requests in Slack channels, with controls for reviewing responses before posting. The feature began rolling out on Team plans. |
+| September 25, 2026 | Anthropic opened a [developer portal for Claude plugins](https://claude.com/blog/build-plugins-for-claude), where developers on paid plans can submit plugins to the Claude directory and track reviews and usage. |
+| September 28, 2026 | Anthropic released [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5), the second model in the Claude 5.5 family. It generates output more than 30% faster than Sonnet 5 at the same API token prices. |
 
 ## Latest Claude Model
 
-Claude Opus 5.5, released on September 22, 2026, is the latest generally available Claude model and Anthropic's most capable Opus model.
+Claude Sonnet 5.5, released on September 28, 2026, is the latest generally available Claude model. It is the second release in the Claude 5.5 family, following Opus 5.5.
 
-Opus 5.5 matches Claude Fable 5.1 on most work, has a 1M-token context window, and costs 40% less to run than Opus 5 on typical workloads. Its API list prices are $4 per million input tokens, $20 per million output tokens, and $0.20 per million cache reads. Fable 5.1 remains available for demanding research and long-running agents, Mythos 5.1 remains restricted to trusted-access programs, and Sonnet 5 and Haiku 4.5 serve other workloads.
+Sonnet 5.5 generates output more than 30% faster than Sonnet 5. Its API prices remain $2 per million input tokens, $10 per million output tokens, and $0.20 per million cache reads. Opus 5.5 handles more complex work. Fable 5.1 remains available for demanding research and long-running agents, while Mythos 5.1 has restricted access.
 
 ## Source Article
 
 This repository is maintained as a companion resource for the full article:
 
-[Anthropic Claude Timeline: From Claude 1 to Claude Opus 5.5](https://www.scriptbyai.com/anthropic-claude-timeline/)
+[Anthropic Claude Timeline: From Claude 1 to Claude Sonnet 5.5](https://www.scriptbyai.com/anthropic-claude-timeline/)
 
 The article includes a more readable web version of the timeline, plus context on Claude model generations and related Claude resources.
 

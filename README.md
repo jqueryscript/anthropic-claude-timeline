@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the major Claude models through the September 2026 launch of Claude Sonnet 5.5, plus releases such as Claude Opus 5.5, Claude Fable 5.1, Claude Mythos 5.1, and Claude Sonnet 5. It also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
+This repository is built to make Claude release history easier to reference, cite, and update. It covers the major Claude models through the October 2026 launch of Claude Haiku 5.5, plus releases such as Claude Sonnet 5.5, Claude Opus 5.5, Claude Fable 5.1, Claude Mythos 5.1, and Claude Sonnet 5. It also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: October 7, 2026
+Last updated: October 8, 2026
 
 ## What This Timeline Covers
 
@@ -22,7 +22,8 @@ Last updated: October 7, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
-| Claude Sonnet 5.5 | September 28, 2026 | Faster Sonnet model for everyday tasks, coding, and document work. It generates output more than 30% faster than Sonnet 5 and has the same API prices: $2 per million input tokens, $10 per million output tokens, and $0.20 per million cache reads. |
+| Claude Haiku 5.5 | October 7, 2026 | Fast, low-cost model for high-volume tasks, with a 1M-token context window, up to 128K output tokens, adaptive thinking, and adjustable effort. |
+| Claude Sonnet 5.5 | September 28, 2026 | Faster Sonnet model for everyday tasks, coding, and document work. It generates output more than 30% faster than Sonnet 5. Current API prices are $2 per million input tokens, $10 per million output tokens, and $0.10 per million cache reads. |
 | Claude Opus 5.5 | September 22, 2026 | Anthropic's most capable Opus model; matches Fable 5.1 on most work, has a 1M-token context window, and costs 40% less to run than Opus 5 on typical workloads. API prices are $4 per million input tokens, $20 per million output tokens, and $0.20 per million cache reads. |
 | Claude Fable 5.1 | September 1, 2026 | Anthropic's most capable generally available model for demanding reasoning, long-running agents, coding, research, and document work, with a 1M-token context window and 128K maximum output. |
 | Claude Mythos 5.1 | September 1, 2026 | Restricted-access version of the same underlying model as Fable 5.1, available by invitation through Project Glasswing. |
@@ -41,7 +42,7 @@ Last updated: October 7, 2026
 | Claude Opus 4 and Claude Sonnet 4 | May 22, 2025 | Claude 4 generation for coding, advanced reasoning, and AI agent workflows. |
 | Claude Code | February 24, 2025 | Agentic coding tool released as a research preview with Claude 3.7 Sonnet. |
 | Claude 3.7 Sonnet | February 24, 2025 | Hybrid reasoning model with standard and extended thinking modes. |
-| Claude 3.5 Haiku | October 22, 2024 | Faster, lower-cost model in the Claude 3.5 family. |
+| Claude 3.5 Haiku | November 4, 2024 (announced October 22) | Faster, lower-cost model in the Claude 3.5 family. |
 | Upgraded Claude 3.5 Sonnet | October 22, 2024 | Improved Claude 3.5 Sonnet with stronger coding and computer use in public beta. |
 | Claude 3.5 Sonnet | June 21, 2024 | First Claude 3.5 model, with stronger reasoning, coding, visual understanding, and Artifacts. |
 | Claude 3 Haiku | March 13, 2024 | Fast Claude 3 model for lower-latency enterprise and API workloads. |
@@ -183,18 +184,25 @@ Last updated: October 7, 2026
 | October 6, 2026 | [Claude for Google Workspace](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides) entered public beta on all paid Claude plans, with a sidebar add-on for editing Google Docs, Sheets, and Slides. New beta connectors also let Claude create and edit Google files from a conversation. |
 | October 6, 2026 | [Claude Startups](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build) expanded with up to $7,000 in Claude products and credits for eligible members, including a free year of up to five Team Premium seats for companies new to Team and a one-time $1,000 API credit. The new Claude Startup Stack offers up to $45,000 in partner benefits. |
 | October 6, 2026 | [Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program) expanded into Defense Access, Red Team Access, and Specialized Access tiers for verified security professionals. The program integrates Project Glasswing and provides qualifying users with access to Opus 5.5, Sonnet 5.5, and Mythos 5.1 with tier-specific cyber safeguards. |
+| October 7, 2026 | [Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5) launched as the third Claude 5.5 model for high-volume, cost-sensitive tasks. It supports a 1M-token context window, up to 128K output tokens, adaptive thinking, and adjustable effort. It is available on the Claude API, Amazon Bedrock, Claude Platform on AWS, Google Cloud, and Microsoft Foundry. |
+| October 7, 2026 | [Claude Sonnet 5.5 cache reads](https://platform.claude.com/docs/en/release-notes/overview) dropped from $0.20 to $0.10 per million tokens. Input, output, and cache-write prices stayed unchanged. |
+| October 7, 2026 | [Monthly API credits](https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers) began rolling out for Max and Team plans: $100 for Max 5x, $200 for Max 20x, and up to $500 pooled across Team seats. Users claim them by linking a Claude Console organization; unused credits expire each billing cycle. |
+| October 7, 2026 | [Python and TypeScript SDK toolsets](https://platform.claude.com/docs/en/release-notes/overview) added beta support for browser use and computer use. Developers supply browser or desktop actions, while the SDK handles the tool loop and approval callbacks. |
+| October 8, 2026 | [Compliance API](https://platform.claude.com/docs/en/release-notes/overview) chat endpoints expanded to return chats from the unified Claude experience, in beta for Enterprise organizations using their existing Compliance Access Key. |
 
 ## Latest Claude Model
 
-Claude Sonnet 5.5, released on September 28, 2026, is the latest generally available Claude model. It is the second release in the Claude 5.5 family, following Opus 5.5.
+Claude Haiku 5.5, released on October 7, 2026, is the latest generally available Claude model and the third release in the Claude 5.5 family. It targets high-volume tasks such as summaries, classification, extraction, and subagent work.
 
-Sonnet 5.5 generates output more than 30% faster than Sonnet 5. Its API prices remain $2 per million input tokens, $10 per million output tokens, and $0.20 per million cache reads. Opus 5.5 handles more complex work. Fable 5.1 remains available for demanding research and long-running agents, while Mythos 5.1 has restricted access.
+For prompts up to 100,000 tokens, Haiku 5.5 costs $0.10 per million input tokens, $0.50 per million output tokens, and $0.01 per million cache reads. For longer prompts, the rates are $0.50, $2.50, and $0.05, respectively.
+
+The current model comparison features Haiku 5.5, Sonnet 5.5, Opus 5.5, and Fable 5.1. Sonnet 5.5 serves everyday and coding work; its cache reads now cost $0.10 per million tokens. Opus 5.5 handles more complex tasks. Fable 5.1 serves demanding research and long-running agents, while Mythos 5.1 has restricted access.
 
 ## Source Article
 
 This repository is maintained as a companion resource for the full article:
 
-[Anthropic Claude Timeline: From Claude 1 to Claude Sonnet 5.5](https://www.scriptbyai.com/anthropic-claude-timeline/)
+[Anthropic Claude Timeline: From Claude 1 to Claude Haiku 5.5](https://www.scriptbyai.com/anthropic-claude-timeline/)
 
 The article includes a more readable web version of the timeline, plus context on Claude model generations and related Claude resources.
 

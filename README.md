@@ -6,7 +6,7 @@ This repository is built to make Claude release history easier to reference, cit
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: September 29, 2026
+Last updated: October 7, 2026
 
 ## What This Timeline Covers
 
@@ -126,7 +126,7 @@ Last updated: September 29, 2026
 | April 2026 | Claude for Word became available on Pro and Max plans. |
 | April 2026 | Claude added connectors for everyday apps, including AllTrails, Instacart, Audible, TripAdvisor, Intuit TurboTax, and more. |
 | April 2026 | Anthropic added connectors for creative work, including Blender, Autodesk, Adobe, Ableton, Splice, and more. |
-| May 2026 | Claude Security launched to scan codebases, validate findings, and suggest patches for review. |
+| April 30, 2026 | [Claude Security](https://claude.com/blog/claude-security-public-beta?wpmobileexternal=true) entered public beta for Enterprise customers to scan codebases, validate findings, and suggest patches for review. |
 | May 2026 | Agent View was added to Claude Code. |
 | May 2026 | The Claude Platform on AWS became available. Claude also remained available on Amazon Bedrock, where AWS is the data processor. |
 | May 2026 | Anthropic announced Claude for Small Business, a package of connectors and ready-to-run workflows for small business tasks. |
@@ -167,7 +167,7 @@ Last updated: September 29, 2026
 | September 14, 2026 | [Claude for Financial Advisors](https://claude.com/blog/claude-for-financial-advisors) launched with connectors to financial custodians, portfolio platforms, CRMs, and planning tools, plus workflow skills for research, meeting preparation, and documentation. |
 | September 15, 2026 | [Salesforce in Claude](https://claude.com/blog/salesforce-in-claude) entered beta for approved organizations on paid plans, bringing seller account, opportunity, and pipeline data into Claude with 37 sales skills. |
 | September 15, 2026 | [Claude for Small Business](https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs) expanded to 43 workflows and 27 integrations, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Square, Stripe, and Zapier. |
-| September 16, 2026 | Claude began rolling out a combined [Cowork and chat experience](https://claude.com/blog/cowork-is-now-claude); Claude Docs and Claude Slides also entered beta on paid plans. |
+| September 16, 2026 | Claude began rolling out a combined [Cowork and chat experience](https://claude.com/blog/cowork-is-now-claude); Claude Design, Claude Docs, and Claude Slides became available in conversations on all plans, including Free. These features remained in beta and off by default on Enterprise plans. |
 | September 17, 2026 | [Claude Code Projects](https://claude.com/blog/projects-redesigned) entered beta for selected Pro and Max subscribers using cloud sessions, with a coordinator that delegates work across parallel threads and reviews the results. |
 | September 17, 2026 | Anthropic opened the beta [Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program), giving approved research teams access to Mythos, Opus, and Sonnet models with more permissive biology safeguards. |
 | September 17, 2026 | Working in Claude Science, Claude optimized more than 30 open-source biomolecular models in under four weeks, with roughly 4x average speed-ups; Anthropic [released the optimized code](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling). |
@@ -177,6 +177,12 @@ Last updated: September 29, 2026
 | September 24, 2026 | [Claude Tag added personal connectors](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels) for requests in Slack channels, with controls for reviewing responses before posting. The feature began rolling out on Team plans. |
 | September 25, 2026 | Anthropic opened a [developer portal for Claude plugins](https://claude.com/blog/build-plugins-for-claude), where developers on paid plans can submit plugins to the Claude directory and track reviews and usage. |
 | September 28, 2026 | Anthropic released [Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5), the second model in the Claude 5.5 family. It generates output more than 30% faster than Sonnet 5 at the same API token prices. |
+| September 30, 2026 | [Claude for Government](https://claude.com/resources/articles/claude-for-government-is-now-generally-available) became generally available to federal and state agencies through a FedRAMP High authorized environment. Claude Code CLI and Claude for Microsoft 365 also entered early access in that environment. |
+| September 30, 2026 | [Claude Sonnet 4.5](https://platform.claude.com/docs/en/about-claude/model-deprecations) entered deprecation, with retirement from the Claude API scheduled for November 30, 2026. Anthropic recommends migrating to Claude Sonnet 5.5. |
+| October 1, 2026 | [Claude Code mods](https://claude.com/resources/articles/claude-code-mods) launched in the CLI and desktop app. These TypeScript functions ship inside plugins and can rewrite prompts, customize tool calls and permission decisions, change the interface, and replace built-in features. |
+| October 6, 2026 | [Claude for Google Workspace](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides) entered public beta on all paid Claude plans, with a sidebar add-on for editing Google Docs, Sheets, and Slides. New beta connectors also let Claude create and edit Google files from a conversation. |
+| October 6, 2026 | [Claude Startups](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build) expanded with up to $7,000 in Claude products and credits for eligible members, including a free year of up to five Team Premium seats for companies new to Team and a one-time $1,000 API credit. The new Claude Startup Stack offers up to $45,000 in partner benefits. |
+| October 6, 2026 | [Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program) expanded into Defense Access, Red Team Access, and Specialized Access tiers for verified security professionals. The program integrates Project Glasswing and provides qualifying users with access to Opus 5.5, Sonnet 5.5, and Mythos 5.1 with tier-specific cyber safeguards. |
 
 ## Latest Claude Model
 

@@ -6,7 +6,7 @@ This repository is built to make Claude release history easier to reference, cit
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: October 8, 2026
+Last updated: October 9, 2026
 
 ## What This Timeline Covers
 
@@ -188,7 +188,12 @@ Last updated: October 8, 2026
 | October 7, 2026 | [Claude Sonnet 5.5 cache reads](https://platform.claude.com/docs/en/release-notes/overview) dropped from $0.20 to $0.10 per million tokens. Input, output, and cache-write prices stayed unchanged. |
 | October 7, 2026 | [Monthly API credits](https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers) began rolling out for Max and Team plans: $100 for Max 5x, $200 for Max 20x, and up to $500 pooled across Team seats. Users claim them by linking a Claude Console organization; unused credits expire each billing cycle. |
 | October 7, 2026 | [Python and TypeScript SDK toolsets](https://platform.claude.com/docs/en/release-notes/overview) added beta support for browser use and computer use. Developers supply browser or desktop actions, while the SDK handles the tool loop and approval callbacks. |
+| October 7, 2026 | [Claude Managed Agents](https://platform.claude.com/docs/en/release-notes/overview) tightened web access: limited cloud environments apply allowed hosts to web search and fetch, and web fetch accepts only URLs already present in the session. |
 | October 8, 2026 | [Compliance API](https://platform.claude.com/docs/en/release-notes/overview) chat endpoints expanded to return chats from the unified Claude experience, in beta for Enterprise organizations using their existing Compliance Access Key. |
+| October 8, 2026 | [Claude Dashboards](https://claude.com/resources/articles/dashboards-and-motion) entered beta on paid plans for live dashboards built from connected data warehouses and business apps. Charts expose their queries and refresh times. Enterprise access is off by default. |
+| October 8, 2026 | [Claude Motion](https://claude.com/resources/articles/dashboards-and-motion) entered beta on Team and Enterprise plans for editable, code-based animations of text, charts, shapes, and images, with MP4 export. Enterprise access is off by default. |
+| October 8, 2026 | [Claude Docs, Slides, and Design](https://claude.com/resources/articles/dashboards-and-motion) became generally available on all plans, including Free. Artifacts added customer-managed encryption keys, team editing, external sharing controls, and mobile editing. On Enterprise plans, these three templates turn on by default October 15. |
+| October 8, 2026 | [Standalone Claude Design migration](https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude) opened ahead of the December 14, 2026 closure of claude.ai/design. Users can migrate design systems into Claude; standalone chats, comments, and public project links will be unavailable after closure. |
 
 ## Latest Claude Model
 

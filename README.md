@@ -6,7 +6,7 @@ This repository is built to make Claude release history easier to reference, cit
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: October 9, 2026
+Last updated: October 22, 2026
 
 ## What This Timeline Covers
 
@@ -194,6 +194,17 @@ Last updated: October 9, 2026
 | October 8, 2026 | [Claude Motion](https://claude.com/resources/articles/dashboards-and-motion) entered beta on Team and Enterprise plans for editable, code-based animations of text, charts, shapes, and images, with MP4 export. Enterprise access is off by default. |
 | October 8, 2026 | [Claude Docs, Slides, and Design](https://claude.com/resources/articles/dashboards-and-motion) became generally available on all plans, including Free. Artifacts added customer-managed encryption keys, team editing, external sharing controls, and mobile editing. On Enterprise plans, these three templates turn on by default October 15. |
 | October 8, 2026 | [Standalone Claude Design migration](https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude) opened ahead of the December 14, 2026 closure of claude.ai/design. Users can migrate design systems into Claude; standalone chats, comments, and public project links will be unavailable after closure. |
+| October 9, 2026 | [Claude Managed Agents dynamic workflows](https://platform.claude.com/docs/en/release-notes/overview) entered beta for multiagent tasks that run in phases and combine their results. |
+| October 14, 2026 | [OpenTelemetry export](https://platform.claude.com/docs/en/release-notes/overview) entered beta for tracing Messages API requests and Managed Agents sessions in observability platforms. |
+| October 14, 2026 | [Managed Agents scheduled deployments](https://platform.claude.com/docs/en/release-notes/overview) became available on Claude Platform on AWS. |
+| October 15, 2026 | [Code Review](https://claude.com/resources/articles/code-review-is-now-generally-available) became generally available for Team and Enterprise organizations. Reviews run automatically on new pull requests after setup, with Quick, Standard, and Deep review levels for each repository. Most reviews finish in 6–10 minutes. |
+| October 15, 2026 | [Claude Opus 5.5 fast mode](https://platform.claude.com/docs/en/release-notes/overview) left research preview, removed its access-request requirement, and added support for Azure-hosted Microsoft Foundry deployments. |
+| October 20, 2026 | [Inference hooks](https://platform.claude.com/docs/en/release-notes/overview) became generally available for Claude Enterprise organizations. |
+| October 20, 2026 | [API user profiles](https://platform.claude.com/docs/en/release-notes/overview) launched to identify end customers per request and apply safety enforcement to individual users. Organization webhooks entered beta for enforcement notifications. |
+| October 20, 2026 | [Organization web access controls](https://platform.claude.com/docs/en/release-notes/overview) added web fetch disabling and domain restrictions in the Claude Console, also enforced in Managed Agents. |
+| October 21, 2026 | [Claude API version 2026-10-21](https://platform.claude.com/docs/en/api/migration-2026-10-21) launched with new major SDK and ant CLI releases. The new version removes temperature, top_p, and top_k request parameters and changes several API response fields. Integrations need migration checks before upgrading. |
+| October 21, 2026 | [Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes) added continuous repository scanning, automatic fix tracking, project knowledge bases, editable threat models, an API, webhooks, and an MCP connector. The update remains in public beta for Enterprise customers and uses models including Mythos without requiring Cyber Verification Program access. |
+| October 21, 2026 | [Claude Duet](https://claude.com/resources/articles/claude-duet) opened a waitlist research preview for US Pro and Max subscribers. Powered by Opus 5.5, it provides briefings, monitors connected apps, and completes tasks in the background. It runs on iOS, Android, and claude.ai, shares Claude plan limits, and requires approval before sending messages, making payments, signing documents, or deleting content. |
 
 ## Latest Claude Model
 

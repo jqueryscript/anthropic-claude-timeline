@@ -6,7 +6,7 @@ This repository is built to make Claude release history easier to reference, cit
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: October 22, 2026
+Last updated: October 23, 2026
 
 ## What This Timeline Covers
 
@@ -205,6 +205,7 @@ Last updated: October 22, 2026
 | October 21, 2026 | [Claude API version 2026-10-21](https://platform.claude.com/docs/en/api/migration-2026-10-21) launched with new major SDK and ant CLI releases. The new version removes temperature, top_p, and top_k request parameters and changes several API response fields. Integrations need migration checks before upgrading. |
 | October 21, 2026 | [Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes) added continuous repository scanning, automatic fix tracking, project knowledge bases, editable threat models, an API, webhooks, and an MCP connector. The update remains in public beta for Enterprise customers and uses models including Mythos without requiring Cyber Verification Program access. |
 | October 21, 2026 | [Claude Duet](https://claude.com/resources/articles/claude-duet) opened a waitlist research preview for US Pro and Max subscribers. Powered by Opus 5.5, it provides briefings, monitors connected apps, and completes tasks in the background. It runs on iOS, Android, and claude.ai, shares Claude plan limits, and requires approval before sending messages, making payments, signing documents, or deleting content. |
+| October 22, 2026 | [Claude Models on Google Cloud (Anthropic managed)](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed) became generally available with Google Cloud IAM authentication, Marketplace billing, and usage that counts toward Google Cloud commitments. Anthropic operates the service and processes the data. US and Global endpoints support Fable 5.1, Opus 5.5, Sonnet 5.5, and Haiku 5.5, with new Claude Platform features and betas available on launch day. The offering includes Managed Agents in beta and Opus 5.5 fast mode. |
 
 ## Latest Claude Model
 

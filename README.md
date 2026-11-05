@@ -6,7 +6,7 @@ This repository is built to make Claude release history easier to reference, cit
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: October 23, 2026
+Last updated: November 6, 2026
 
 ## What This Timeline Covers
 
@@ -206,6 +206,22 @@ Last updated: October 23, 2026
 | October 21, 2026 | [Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes) added continuous repository scanning, automatic fix tracking, project knowledge bases, editable threat models, an API, webhooks, and an MCP connector. The update remains in public beta for Enterprise customers and uses models including Mythos without requiring Cyber Verification Program access. |
 | October 21, 2026 | [Claude Duet](https://claude.com/resources/articles/claude-duet) opened a waitlist research preview for US Pro and Max subscribers. Powered by Opus 5.5, it provides briefings, monitors connected apps, and completes tasks in the background. It runs on iOS, Android, and claude.ai, shares Claude plan limits, and requires approval before sending messages, making payments, signing documents, or deleting content. |
 | October 22, 2026 | [Claude Models on Google Cloud (Anthropic managed)](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed) became generally available with Google Cloud IAM authentication, Marketplace billing, and usage that counts toward Google Cloud commitments. Anthropic operates the service and processes the data. US and Global endpoints support Fable 5.1, Opus 5.5, Sonnet 5.5, and Haiku 5.5, with new Claude Platform features and betas available on launch day. The offering includes Managed Agents in beta and Opus 5.5 fast mode. |
+| October 23, 2026 | [Unified Claude for Enterprise](https://claude.com/resources/articles/unified-claude-enterprise) became generally available across web, desktop, and mobile. Chat and Cowork share one conversation, with cloud-based agentic work, role-based access, and an Efficient mode for managing usage. |
+| October 23, 2026 | [Claude Tag API](https://platform.claude.com/docs/en/release-notes/overview) entered beta for Enterprise organizations to manage Slack channel and workspace settings and attach Access bundles. |
+| October 26, 2026 | [Claude for Nonprofits](https://claude.com/resources/articles/expanding-claude-for-nonprofits) added a plugin for verified nonprofits with skills for fundraising, marketing, hiring, governance, and operational work. |
+| October 27, 2026 | [Claude for Financial Advisors](https://claude.com/resources/articles/claude-for-financial-advisors) launched with connectors for custodial data, portfolio platforms, CRMs, and planning tools, plus skills for meeting preparation, portfolio analysis, and compliance checks. |
+| October 28, 2026 | [Enterprise smart reports, surveys, and pooled group budgets](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets) became generally available. Teams can review work and costs, collect in-app feedback, and share a budget across a group. |
+| October 28, 2026 | [Claude for Legal artifacts](https://claude.com/resources/articles/introducing-artifacts-for-legal-work) introduced reusable tools for citation checks, contract review, matter tracking, and regulatory monitoring. Teams can adapt them with their own documents and connectors and share them with colleagues. |
+| October 28, 2026 | [Messages and Token Counting APIs](https://platform.claude.com/docs/en/release-notes/overview) raised the first-party request size limit from 32 MB to 128 MB. |
+| October 29, 2026 | [Usage and Cost Analytics API](https://platform.claude.com/docs/en/release-notes/overview) entered beta for Console and Enterprise organizations. Earlier usage and cost reporting APIs remain supported as legacy APIs. |
+| October 30, 2026 | [Claude Ultra](https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan) replaced the Max 20x plan at the same $200 monthly web subscription price. Verified accounts have no five-hour limit; weekly limits still apply, including a separate Fable limit. |
+| October 30, 2026 | [Opus 4.8 fast mode](https://platform.claude.com/docs/en/release-notes/overview) was deprecated, with removal scheduled for November 30, 2026. Anthropic recommends Opus 5.5 for fast mode. |
+| November 2, 2026 | [Message threads](https://claude.com/resources/articles/message-threads) entered beta in the Messages API. The server retains conversation history so later requests send only new messages, which reduces request size and time to first token for long agent loops. |
+| November 3, 2026 | [Text watermarking](https://platform.claude.com/docs/en/release-notes/overview) expanded to Mythos 5, Opus 4.7, and Sonnet 4.6 on supported platforms. Non-default sampling settings can prevent watermarking on Sonnet 4.6. |
+| November 4, 2026 | [Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace) expanded to more than 25 partner agents and products across security, developer infrastructure, creative work, and productivity. Eligible enterprise customers can apply part of their Anthropic spending commitments to partner solutions. |
+| November 5, 2026 | [Claude Enterprise security controls](https://claude.com/resources/articles/claude-enterprise-security-updates) added a security center, centralized administration, member sign-out, self-serve IP allowlisting, and managed Desktop restrictions, with several features in beta. Prompt and pre-tool-call inference hooks are generally available. |
+| November 5, 2026 | [Console IP allowlisting](https://platform.claude.com/docs/en/release-notes/overview) entered beta to restrict API access by source IP address. |
+| November 5, 2026 | [Personal Finance in Claude](https://claude.com/resources/articles/introducing-personal-finance-in-claude) began rolling out in beta for US Pro, Max, and Ultra subscribers. Users can connect financial accounts through Plaid to review balances, spending, and transactions. Access is read-only; Claude cannot move, manage, or invest money. |
 
 ## Latest Claude Model
 

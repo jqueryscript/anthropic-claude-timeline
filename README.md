@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-This repository is built to make Claude release history easier to reference, cite, and update. It covers the major Claude models through the October 2026 launch of Claude Haiku 5.5, plus releases such as Claude Sonnet 5.5, Claude Opus 5.5, Claude Fable 5.1, Claude Mythos 5.1, and Claude Sonnet 5. It also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
+Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. This timeline also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: November 6, 2026
+Last updated: November 10, 2026
 
 ## What This Timeline Covers
 
@@ -22,10 +22,12 @@ Last updated: November 6, 2026
 
 | Model or Product | Release Date | Key Highlight |
 |---|---:|---|
+| Claude Fable 5.2 | November 9, 2026 | Generally available model with improved coding, reasoning, and vision for complex technical tasks and long-running agents. |
+| Claude Mythos 5.2 | November 9, 2026 | Same underlying model as Fable 5.2, with fewer cybersecurity and biology safeguards and access limited to approved organizations. |
 | Claude Haiku 5.5 | October 7, 2026 | Fast, low-cost model for high-volume tasks, with a 1M-token context window, up to 128K output tokens, adaptive thinking, and adjustable effort. |
 | Claude Sonnet 5.5 | September 28, 2026 | Faster Sonnet model for everyday tasks, coding, and document work. It generates output more than 30% faster than Sonnet 5. Current API prices are $2 per million input tokens, $10 per million output tokens, and $0.10 per million cache reads. |
 | Claude Opus 5.5 | September 22, 2026 | Anthropic's most capable Opus model; matches Fable 5.1 on most work, has a 1M-token context window, and costs 40% less to run than Opus 5 on typical workloads. API prices are $4 per million input tokens, $20 per million output tokens, and $0.20 per million cache reads. |
-| Claude Fable 5.1 | September 1, 2026 | Anthropic's most capable generally available model for demanding reasoning, long-running agents, coding, research, and document work, with a 1M-token context window and 128K maximum output. |
+| Claude Fable 5.1 | September 1, 2026 | Anthropic's most capable generally available model at launch, built for demanding reasoning, long-running agents, coding, research, and document work, with a 1M-token context window and 128K maximum output. |
 | Claude Mythos 5.1 | September 1, 2026 | Restricted-access version of the same underlying model as Fable 5.1, available by invitation through Project Glasswing. |
 | Claude Opus 5 | July 24, 2026 | Opus model for complex agentic coding and enterprise work, with a 1M-token context window, 128K maximum output, and adaptive thinking enabled by default. |
 | Claude Sonnet 5 | June 30, 2026 | Sonnet model for agentic coding, tool use, reasoning, and knowledge work; its API pricing of $2 per million input tokens and $10 per million output tokens is now permanent. |
@@ -222,6 +224,10 @@ Last updated: November 6, 2026
 | November 5, 2026 | [Claude Enterprise security controls](https://claude.com/resources/articles/claude-enterprise-security-updates) added a security center, centralized administration, member sign-out, self-serve IP allowlisting, and managed Desktop restrictions, with several features in beta. Prompt and pre-tool-call inference hooks are generally available. |
 | November 5, 2026 | [Console IP allowlisting](https://platform.claude.com/docs/en/release-notes/overview) entered beta to restrict API access by source IP address. |
 | November 5, 2026 | [Personal Finance in Claude](https://claude.com/resources/articles/introducing-personal-finance-in-claude) began rolling out in beta for US Pro, Max, and Ultra subscribers. Users can connect financial accounts through Plaid to review balances, spending, and transactions. Access is read-only; Claude cannot move, manage, or invest money. |
+| November 6, 2026 | [Enterprise project tags](https://support.claude.com/en/articles/12138966-release-notes) entered beta for eligible organizations to track project spending by cost code. |
+| November 9, 2026 | [Anthropic released Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2). Both generate output up to 30% faster than their 5.1 predecessors. On supported platforms, fast mode increases output speed by up to 2.5 times and costs $16 per million input tokens and $80 per million output tokens. |
+| November 9, 2026 | [Preserved thinking checks](https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2) apply to all API accounts for both 5.2 models. The API rejects requests that reuse a thinking block after changing the system prompt, tools, or earlier messages. |
+| November 9, 2026 | [Fable launch offers](https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers) included all Fable models for Pro subscribers and standard Team seats through November 16 at 11:59 p.m. Pacific time, up to half their weekly usage limit. Eligible subscribers on those plans received one Fable usage reset. Eligible Max and Ultra subscribers and premium seats on Team and legacy seat-based Enterprise plans received one to three resets based on subscription length. |
 
 ## Latest Claude Model
 
@@ -229,7 +235,7 @@ Claude Haiku 5.5, released on October 7, 2026, is the latest generally available
 
 For prompts up to 100,000 tokens, Haiku 5.5 costs $0.10 per million input tokens, $0.50 per million output tokens, and $0.01 per million cache reads. For longer prompts, the rates are $0.50, $2.50, and $0.05, respectively.
 
-The current model comparison features Haiku 5.5, Sonnet 5.5, Opus 5.5, and Fable 5.1. Sonnet 5.5 serves everyday and coding work; its cache reads now cost $0.10 per million tokens. Opus 5.5 handles more complex tasks. Fable 5.1 serves demanding research and long-running agents, while Mythos 5.1 has restricted access.
+The current model comparison features Haiku 5.5, Sonnet 5.5, Opus 5.5, and Fable 5.2. Approved organizations can apply for Mythos 5.2 through the Cyber Verification Program or the Life Sciences Verification Program. Both models have a 1M-token context window, up to 128K output tokens, and always-on adaptive thinking. Standard API rates are $8 per million input tokens, $40 per million output tokens, and $0.20 per million cache reads.
 
 ## Source Article
 

@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. This timeline also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
+Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. This timeline also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Sheets, Claude Whiteboards, Claude Data, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: November 10, 2026
+Last updated: November 11, 2026
 
 ## What This Timeline Covers
 
@@ -228,12 +228,17 @@ Last updated: November 10, 2026
 | November 9, 2026 | [Anthropic released Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2). Both generate output up to 30% faster than their 5.1 predecessors. On supported platforms, fast mode increases output speed by up to 2.5 times and costs $16 per million input tokens and $80 per million output tokens. |
 | November 9, 2026 | [Preserved thinking checks](https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2) apply to all API accounts for both 5.2 models. The API rejects requests that reuse a thinking block after changing the system prompt, tools, or earlier messages. |
 | November 9, 2026 | [Fable launch offers](https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers) included all Fable models for Pro subscribers and standard Team seats through November 16 at 11:59 p.m. Pacific time, up to half their weekly usage limit. Eligible subscribers on those plans received one Fable usage reset. Eligible Max and Ultra subscribers and premium seats on Team and legacy seat-based Enterprise plans received one to three resets based on subscription length. |
+| November 10, 2026 | [Claude Whiteboards](https://claude.com/resources/articles/sheets-whiteboards-data) launched in beta on all paid plans for real-time brainstorming with teammates and Claude. Boards can become documents or slide decks. |
+| November 10, 2026 | [Claude Sheets](https://claude.com/resources/articles/sheets-whiteboards-data) launched in beta on all paid plans with collaborative spreadsheet editing, multiple tabs, formulas, formatting, drop-downs, and exports to .xlsx or CSV. |
+| November 10, 2026 | [Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data) became generally available as the new name for Claude Dashboards. It adds data stories, design systems, caching, and version history; certified queries and live sharing remain in beta. Whiteboards, Sheets, and Data support web, desktop, and mobile. Enterprise Whiteboards and Sheets are off by default; Data turns on by default on November 19. |
+| November 10, 2026 | [Interactive connectors](https://claude.com/resources/articles/interactive-connectors-full-tool) began rolling out full app interfaces beside conversations or in full screen on web and desktop across all plans with the new Claude experience. Users can edit alongside Claude in supported apps. Expanded MCP Apps capabilities entered public preview for developers. |
+| November 10, 2026 | [Claude auto-connect and Claude Meetings](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors) were highlighted in the November product update. Auto-connect is in beta for eligible Team and Enterprise plans and connects employees to supported apps after a one-time organization setup. Claude Meetings was announced as coming soon for call notes and live document updates; it had not launched. |
 
 ## Latest Claude Model
 
-Claude Haiku 5.5, released on October 7, 2026, is the latest generally available Claude model and the third release in the Claude 5.5 family. It targets high-volume tasks such as summaries, classification, extraction, and subagent work.
+Claude Fable 5.2, released on November 9, 2026, is the latest generally available Claude model. Claude Mythos 5.2 launched on the same date with access limited to approved organizations. Both models improve coding, reasoning, and vision over their 5.1 predecessors.
 
-For prompts up to 100,000 tokens, Haiku 5.5 costs $0.10 per million input tokens, $0.50 per million output tokens, and $0.01 per million cache reads. For longer prompts, the rates are $0.50, $2.50, and $0.05, respectively.
+Claude Haiku 5.5 remains the latest Haiku release for high-volume tasks. For prompts up to 100,000 tokens, it costs $0.10 per million input tokens, $0.50 per million output tokens, and $0.01 per million cache reads. For longer prompts, the rates are $0.50, $2.50, and $0.05, respectively.
 
 The current model comparison features Haiku 5.5, Sonnet 5.5, Opus 5.5, and Fable 5.2. Approved organizations can apply for Mythos 5.2 through the Cyber Verification Program or the Life Sciences Verification Program. Both models have a 1M-token context window, up to 128K output tokens, and always-on adaptive thinking. Standard API rates are $8 per million input tokens, $40 per million output tokens, and $0.20 per million cache reads.
 
@@ -241,7 +246,7 @@ The current model comparison features Haiku 5.5, Sonnet 5.5, Opus 5.5, and Fable
 
 This repository is maintained as a companion resource for the full article:
 
-[Anthropic Claude Timeline: From Claude 1 to Claude Haiku 5.5](https://www.scriptbyai.com/anthropic-claude-timeline/)
+[Anthropic Claude Timeline: From Claude 1 to Claude Fable 5.2](https://www.scriptbyai.com/anthropic-claude-timeline/)
 
 The article includes a more readable web version of the timeline, plus context on Claude model generations and related Claude resources.
 

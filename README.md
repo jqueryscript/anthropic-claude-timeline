@@ -2,11 +2,11 @@
 
 A public timeline of major Anthropic Claude model releases, product updates, and developer platform milestones.
 
-Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. This timeline also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Sheets, Claude Whiteboards, Claude Data, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
+Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. This timeline also tracks Claude Code, Claude Tag, Claude Academy, Model Context Protocol, Model Hardware Standard, Claude Desktop, Claude Sheets, Claude Whiteboards, Claude Data, Claude Meetings, Claude Science, computer use, Skills, the Skills API, the Files API, web search, connectors, and agent features.
 
 > [ChatGPT Timeline](https://github.com/jqueryscript/chatgpt-timeline)
 
-Last updated: November 11, 2026
+Last updated: November 13, 2026
 
 ## What This Timeline Covers
 
@@ -232,7 +232,10 @@ Last updated: November 11, 2026
 | November 10, 2026 | [Claude Sheets](https://claude.com/resources/articles/sheets-whiteboards-data) launched in beta on all paid plans with collaborative spreadsheet editing, multiple tabs, formulas, formatting, drop-downs, and exports to .xlsx or CSV. |
 | November 10, 2026 | [Claude Data](https://claude.com/resources/articles/sheets-whiteboards-data) became generally available as the new name for Claude Dashboards. It adds data stories, design systems, caching, and version history; certified queries and live sharing remain in beta. Whiteboards, Sheets, and Data support web, desktop, and mobile. Enterprise Whiteboards and Sheets are off by default; Data turns on by default on November 19. |
 | November 10, 2026 | [Interactive connectors](https://claude.com/resources/articles/interactive-connectors-full-tool) began rolling out full app interfaces beside conversations or in full screen on web and desktop across all plans with the new Claude experience. Users can edit alongside Claude in supported apps. Expanded MCP Apps capabilities entered public preview for developers. |
-| November 10, 2026 | [Claude auto-connect and Claude Meetings](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors) were highlighted in the November product update. Auto-connect is in beta for eligible Team and Enterprise plans and connects employees to supported apps after a one-time organization setup. Claude Meetings was announced as coming soon for call notes and live document updates; it had not launched. |
+| November 10, 2026 | [Claude auto-connect and Claude Meetings](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors) were highlighted in the November product update. Auto-connect is in beta for eligible Team and Enterprise plans and connects employees to supported apps after a one-time organization setup. Anthropic previewed Claude Meetings for call notes and live document updates. |
+| November 12, 2026 | [Claude Meetings](https://claude.com/resources/articles/claude-meetings) began rolling out in beta to eligible Team and Enterprise organizations on the web and in Claude Desktop. Claude joins Google Meet as a visible participant, takes notes, answers questions, and creates documents, whiteboards, or slides during the call. The meeting page keeps the transcript, summary, action items, and artifacts. |
+| November 12, 2026 | [Claude for Manufacturing](https://claude.com/resources/articles/claude-for-manufacturing) launched for Team and Enterprise plans. The plugin includes 17 skills for tasks such as drafting quotes and quality reports, plus connectors for Autodesk Fusion, Infor, Microsoft 365, and Oracle NetSuite. |
+| November 12, 2026 | [Self-hosted Claude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents) entered private beta. Organizations can run the service in their own cloud or on-premises, keep credentials and session history on their infrastructure, and choose where model requests go. |
 
 ## Latest Claude Model
 
